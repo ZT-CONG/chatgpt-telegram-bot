@@ -8,8 +8,6 @@ from telegram import Update
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 openai.api_key = OPENAI_API_KEY
-updater = Updater(token=TELEGRAM_TOKEN, use_context=True)
-port = os.getenv('PORT', 5000)
 
 # 存储每个用户的对话历史
 user_context = {}
