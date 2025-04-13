@@ -1,0 +1,4 @@
+chatgpt-telegram-bot/
+├── bot.py               # 主程序
+├── requirements.txt     # Python 依赖
+├── Procfile             # Render 启动文件
