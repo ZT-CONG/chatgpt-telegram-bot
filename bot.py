@@ -3,8 +3,8 @@ import openai
 import telegram
 from telegram.ext import Updater, MessageHandler, Filters
 
-TELEGRAM_TOKEN = os.getenv(7841546368:AAHw8uNBJAb2BqOb9Rq1b9v7xO2659VeG1I)
-OPENAI_API_KEY = os.getenv(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)
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 openai.api_key = OPENAI_API_KEY
 
